@@ -11,6 +11,7 @@ function parseStatus(data) {
     const services = document.getElementById("services");
     services.innerHTML = "";
     for (let i = 0; i < data.length; i++) {
+        if (Object.keys(data[i])[0] == "sessionserver.mojang.com") return;
         services.appendChild(makeStatusElement(data[i]));
     }
 }
