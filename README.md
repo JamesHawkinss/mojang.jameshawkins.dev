@@ -1,5 +1,5 @@
 # mojang.jameshawkins.dev
-`‼️ This site no longer works, following Mojang's removal of the API endpoint. This repository has been archived.` 
+`❗❗ This site no longer works, following Mojang's removal of the API endpoint. This repository has been archived.` 
 
 A Mojang status page, based on https://status.mojang.com/check
 
